@@ -41,7 +41,6 @@ function raio(c, pontos) {
 function resultado(pontos, raio) {
     const areaResultado = document.querySelector('.resultado')
     areaResultado.textContent = `Pontos: ${pontos} ; Raio: ${raio}` 
-    console.log()
 }
 
 function limparCampo() {
